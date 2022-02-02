@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Search bar in Javascript</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <section class="search-wrapper">
+      <label for="search"> Search Users: </label>
+      <input type="search" id="search" data-search-input />
+    </section>
+    <section class="card-container" data-card-container></section>
+    <template data-card-template>
+      <article class="card">
+        <div class="card__header" data-header></div>
+        <div class="card__body" data-body></div>
+      </article>
+    </template>
+  </body>
+</html>

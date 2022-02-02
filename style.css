@@ -1,0 +1,34 @@
+.search-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+input {
+  font-size: 1rem;
+}
+
+.card-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: repeat(auto-fill, minmax(12rem, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(12rem, 1fr));
+  gap: 0.25rem;
+  margin-top: 1rem;
+}
+
+.card {
+  border: 1px solid black;
+  padding: 0.5rem;
+}
+.card > .card__header {
+  margin-bottom: 0.25rem;
+}
+.card > .card__body {
+  font-size: 0.8rem;
+  color: #777;
+}
+
+.hide {
+  display: none;
+}
