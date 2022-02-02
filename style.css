@@ -1,13 +1,19 @@
+main {
+  max-width: 40rem;
+  margin: 0 auto;
+  margin-top: 5rem;
+}
+/* search */
 .search-wrapper {
   display: flex;
   flex-direction: column;
   gap: 0.25rem;
 }
-
 input {
   font-size: 1rem;
+  padding: 0.5rem;
 }
-
+/* card */
 .card-container {
   display: -ms-grid;
   display: grid;
@@ -16,7 +22,6 @@ input {
   gap: 0.25rem;
   margin-top: 1rem;
 }
-
 .card {
   border: 1px solid black;
   padding: 0.5rem;
@@ -28,7 +33,7 @@ input {
   font-size: 0.8rem;
   color: #777;
 }
-
+/* hide */
 .hide {
   display: none;
 }

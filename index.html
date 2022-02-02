@@ -9,11 +9,18 @@
     <script src="script.js" defer></script>
   </head>
   <body>
-    <section class="search-wrapper">
-      <label for="search"> Search Users: </label>
-      <input type="search" id="search" data-search-input />
-    </section>
-    <section class="card-container" data-card-container></section>
+    <main>
+      <section class="search-wrapper">
+        <label for="search"> Search Users: </label>
+        <input
+          type="search"
+          id="search"
+          placeholder="John Doe / email@example.com"
+          data-search-input
+        />
+      </section>
+      <section class="card-container" data-card-container></section>
+    </main>
     <template data-card-template>
       <article class="card">
         <div class="card__header" data-header></div>
